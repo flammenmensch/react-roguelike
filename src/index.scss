@@ -1,0 +1,23 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "DungeonType";
+  src: url('../public/fonts/DungeonFont.ttf');
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: DungeonType, monospace;
+  font-size: 1rem;
+}
+
+pre {
+  font-family: Monaco, monospace;
+}
+
+* {
+  image-rendering: pixelated;
+}
