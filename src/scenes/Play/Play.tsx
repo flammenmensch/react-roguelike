@@ -26,7 +26,8 @@ const Play = ({ onQuit }: Props) => {
       case 'left':
       case 'down':
       case 'right':
-      // TODO: send to playRef
+        // TODO: send to playRef
+        break;
       default:
     }
   });

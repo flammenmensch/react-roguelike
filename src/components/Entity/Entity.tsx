@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { TILE_HEIGHT, TILE_WIDTH } from '../../constants';
 import { PositionProps, SizeProps } from '../../domain';
-import { position, size } from '../../utils/styles';
+import { size } from '../../utils/styles';
 
 type Props = Partial<PositionProps & SizeProps>;
 

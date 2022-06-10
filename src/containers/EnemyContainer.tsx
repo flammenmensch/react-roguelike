@@ -8,7 +8,7 @@ interface Props {
 }
 
 const EnemyContainer = ({ actor }: Props) => {
-  const [state, send] = useActor(actor);
+  const [state] = useActor(actor);
   return <Enemy {...state.context} state={state.value} />;
 };
 

@@ -105,6 +105,11 @@ export const createGameMachine = () => {
               }),
             ),
         }),
+        on: {
+          QUIT: {
+            target: 'menu',
+          },
+        },
       },
       gameOver: {
         on: {
